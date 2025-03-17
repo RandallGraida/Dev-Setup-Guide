@@ -1,0 +1,56 @@
+# To install all modules
+pip install -r PytorchRequirements.txt
+
+# PyTorch core libraries for deep learning
+torch               # Core PyTorch library for tensors and computation
+torchvision         # Image processing utilities for PyTorch
+torchaudio          # Audio processing utilities for PyTorch
+
+# Data processing & manipulation
+numpy               # Numerical computations and array manipulation
+pandas              # Data manipulation and analysis
+scipy               # Scientific computing (optimization, integration, etc.)
+h5py                # Handling large datasets using HDF5 format
+
+# Model training & monitoring
+torchsummary        # Model summary visualization (like Keras .summary())
+torchinfo           # Provides detailed model architecture insights
+tqdm                # Adds progress bars for loops and training
+pyyaml              # Configuration file handling for hyperparameters
+tensorboard         # Logging, visualization, and performance tracking
+wandb               # Weights & Biases for experiment tracking and visualization
+
+# GPU & performance optimization
+nvidia-pyindex      # NVIDIA dependency management for GPU acceleration
+
+# Computer vision utilities
+opencv-python       # Image processing and computer vision library
+albumentations      # Advanced image augmentation techniques
+Pillow              # Image handling and manipulation
+
+# Natural Language Processing (NLP)
+transformers        # Hugging Face's transformer models (BERT, GPT, etc.)
+sentencepiece       # Tokenization for transformer-based NLP models
+spacy               # NLP tasks like tokenization, POS tagging, parsing
+nltk                # Natural Language Toolkit for text processing
+
+# Reinforcement Learning (RL)
+gym                 # Environment simulation for RL training
+stable-baselines3   # Pre-built RL algorithms for training models
+
+# Graph Learning
+torch-geometric     # Graph Neural Network (GNN) library for PyTorch
+
+# Hyperparameter Optimization & AutoML
+optuna              # Hyperparameter tuning and optimization
+ray[tune]           # Scalable hyperparameter tuning with Ray Tune
+
+# Model deployment & serving
+onnx                # Open Neural Network Exchange format for model interoperability
+onnxruntime         # Inference runtime for executing ONNX models
+torchserve          # PyTorch model serving framework for production deployment
+
+# Visualization & Analysis
+matplotlib          # Data visualization library for plots and graphs
+seaborn             # Statistical data visualization with enhanced aesthetics
+scikit-learn        # Machine learning utilities (e.g., preprocessing, metrics, models)
