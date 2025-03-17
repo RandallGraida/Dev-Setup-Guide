@@ -1,0 +1,68 @@
+// Standard c++ libraries
+#include <iostream>           // For input and output
+#include <iomanip>            // For formatted output
+#include <fstream>            // For file handling
+#include <sstream>            // For string stream operations
+#include <string>             // For string operations
+#include <vector>             // For dynamic arrays
+#include <array>              // For static arrays
+#include <deque>              // For double-ended queues
+#include <queue>              // For queues and priority queues
+#include <stack>              // For stacks
+#include <map>                // For key-value storage (ordered)
+#include <unordered_map>      // For key-value storage (unordered)
+#include <set>                // For ordered sets
+#include <unordered_set>      // For unordered sets
+#include <list>               // For doubly linked lists
+#include <bitset>             // For bit manipulation
+#include <iterator>           // For iterator operations
+#include <algorithm>          // For common algorithms (sort, find, etc.)
+#include <functional>         // For function objects and lambda support
+#include <numeric>            // For numeric operations (accumulate, iota)
+#include <cmath>              // For mathematical functions
+#include <complex>            // For complex number calculations
+#include <random>             // For random number generation
+#include <ratio>              // For compile-time rational arithmetic
+#include <chrono>             // For time-related operations
+#include <thread>             // For multithreading
+#include <mutex>              // For thread synchronization
+#include <atomic>             // For atomic operations
+#include <future>             // For asynchronous programming
+#include <condition_variable> // For thread synchronization
+#include <memory>             // For smart pointers
+#include <cstddef>            // For standard definitions
+#include <climits>            // For limits of integral types
+#include <cfloat>             // For limits of floating-point types
+#include <cstdint>            // For fixed-width integer types
+#include <cassert>            // For assertions
+#include <csignal>            // For signal handling
+#include <cctype>             // For character handling functions
+#include <cwchar>             // For wide character functions
+#include <cwctype>            // For wide character classification
+#include <cerrno>             // For error number definitions
+#include <cstdarg>            // For handling variable argument lists
+#include <cstdlib>            // For general purpose functions
+#include <cstring>            // For C-style string manipulation
+#include <ciso646>            // For alternative operator spellings
+#include <locale>             // For localization support
+#include <codecvt>            // For Unicode conversion facets
+
+// AI/ML Libraries
+#include <tensorflow/c/c_api.h>                           // For TensorFlow C API
+#include <tensorflow/core/public/session.h>               // For TensorFlow C++ API
+#include <tensorflow/core/protobuf/meta_graph.pb.h>       // For TensorFlow model loading
+#include <opencv2/opencv.hpp>                             // For computer vision (OpenCV)
+#include <torch/torch.h>                                  // For PyTorch C++ API (LibTorch)
+#include <torch/script.h>                                 // For loading PyTorch models in C++
+#include <tflite/c/c_api.h>                               // For TensorFlow Lite C API
+#include <Eigen/Dense>                                    // For linear algebra
+#include <dlib/dnn.h>                                     // For deep learning with Dlib
+#include <dlib/opencv.h>                                  // For interoperability between Dlib and OpenCV
+#include <mlpack/core.hpp>                                // For ML algorithms (mlpack)
+#include <mlpack/methods/ann/ann.hpp>                     // For neural networks in mlpack
+#include <armadillo>                                      // For matrix operations (used in mlpack)
+#include <caffe/caffe.hpp>                                // For Caffe deep learning framework
+#include <xgboost/c_api.h>                                // For XGBoost machine learning library
+#include <cntk/cntk.h>                                    // For Microsoft CNTK deep learning framework
+#include <onnxruntime/core/session/onnxruntime_cxx_api.h> // For ONNX Runtime inference
+
